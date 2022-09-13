@@ -1,0 +1,17 @@
+include <stdio.h>
+
+int main() 
+{
+    int a=2,b=4;
+    if(a>b)
+{    
+    printf("b is not greater");
+    printf("a is greater");
+}
+else
+printf("b is greater""\n");
+printf("a is not greater");
+
+   return 0;
+
+}
