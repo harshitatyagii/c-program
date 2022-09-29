@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+int add (int,int);
+int main ()  {
+    int num1,num2;
+    num1=20;
+    num2=10;
+    int num = add(num1,num2);
+    printf ("%d",num);
+    return 0;
+}
+    int add(int n1,int n2)
+    {
+     return (n1 + n2);
+    }
+
